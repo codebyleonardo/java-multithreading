@@ -18,7 +18,7 @@ We need threads to achieve responsiveness and performance. Using techniques like
 We don't need multiple cores to achieve concurrency. We can create an illusion of multiple tasks executing in parallel
 using a single core.
 
-![img.png](img.png)
+![img.png](prints/img.png)
 
 ## Parallelism
 - Multiple tasks running simultaneously
@@ -27,7 +27,7 @@ using a single core.
 
 With multiple cores we can truly run tasks completely in parallelism.
 
-![img_1.png](img_1.png)
+![img_1.png](prints/img_1.png)
 
 ## Processes
 
@@ -40,13 +40,13 @@ A single-threaded application process is a type of process computing where the a
 single thread of execution. This means the process has only one thread running at a time to perform all its operations,
 including computation, I/O, and user interactions.
 
-![img_3.png](img_3.png)
+![img_3.png](prints/img_3.png)
 
 ### Multithreaded Application Process
 A multithreaded application is a type of software that runs multiple threads of execution within a single process. Each
 thread operates independently and concurrently, sharing the process's resources like files, heap and code.
 
-![img_4.png](img_4.png)
+![img_4.png](prints/img_4.png)
 
 **Summary:**
 - Threads contains:
